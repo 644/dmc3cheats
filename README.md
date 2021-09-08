@@ -1,6 +1,6 @@
 # Install Guide
 - Download and install Cheat Engine: https://www.cheatengine.org/downloads.php
-- Download the Cheat Table: https://github.com/644/dmc3cheats/releases/download/v1.0/dmc3hax.zip
+- Download and extract the Cheat Table: https://github.com/644/dmc3cheats/releases/download/v1.0/dmc3hax.zip
 - Open Cheat Engine
 - Start DMC3SE (this only works for a legit 2006 port Steam version)
 - In Cheat Engine, click the "select process to open" (top left) and select dmc3se.exe and click "open"
