@@ -17,3 +17,5 @@ That's it
 - <kbd>F7</kbd> - Gives you infinite Royal Guard gauge, Devil Trigger, items, and health, press <kbd>F7</kbd> again to disable
 
 Happy hacking
+
+#### Thanks to [serpentiem](https://github.com/serpentiem/) for providing me with the initial Cheat Table with the majority of the pointers
