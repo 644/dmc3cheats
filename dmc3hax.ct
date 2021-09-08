@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="31">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>699683</ID>
+      <Description>"__EVENT__"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>699685</ID>
+          <Description>"room"</Description>
+          <LastState Value="121" RealAddress="01370250"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>10+0</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>699686</ID>
+          <Description>"position"</Description>
+          <LastState Value="1" RealAddress="01370254"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>10+4</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>699687</ID>
+          <Description>"event"</Description>
+          <LastState Value="1" RealAddress="01370258"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>10+8</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>699699</ID>
+          <Description>"next room"</Description>
+          <LastState Value="122" RealAddress="00C38D38"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>F4</Offset>
+            <Offset>4</Offset>
+            <Offset>C</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>699700</ID>
+          <Description>"next position"</Description>
+          <LastState Value="0" RealAddress="00C38D3A"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>F6</Offset>
+            <Offset>4</Offset>
+            <Offset>C</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>699697</ID>
+          <Description>"next room"</Description>
+          <LastState Value="122" RealAddress="00C38D38"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>F4</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>699701</ID>
+          <Description>"next position"</Description>
+          <LastState Value="0" RealAddress="00C38D3A"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>F6</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>699689</ID>
+      <Description>"__ACTOR__"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>699690</ID>
+          <Description>"character"</Description>
+          <LastState Value="0" RealAddress="01C8A644"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>44</Offset>
+            <Offset>110</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>699693</ID>
+          <Description>"position x"</Description>
+          <LastState Value="2453.951904" RealAddress="01C8A64C"/>
+          <VariableType>Float</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>4C</Offset>
+            <Offset>110</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>699691</ID>
+          <Description>"position y"</Description>
+          <LastState Value="0" RealAddress="01C8A650"/>
+          <VariableType>Float</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>50</Offset>
+            <Offset>110</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>699692</ID>
+          <Description>"position z"</Description>
+          <LastState Value="1691.886597" RealAddress="01C8A654"/>
+          <VariableType>Float</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>54</Offset>
+            <Offset>110</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>728162</ID>
+      <Description>"__ENEMY__"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>728169</ID>
+          <Description>"count"</Description>
+          <LastState Value="0" RealAddress="01370CB8"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>A78</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728191</ID>
+          <Description>"kill count"</Description>
+          <LastState Value="0" RealAddress="00C38B0C"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>30+9C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728164</ID>
+          <Description>"0000"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>44</Offset>
+            <Offset>A90+8*0</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728170</ID>
+          <Description>"0001"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>44</Offset>
+            <Offset>A90+8*1</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728171</ID>
+          <Description>"0002"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>44</Offset>
+            <Offset>A90+8*2</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728172</ID>
+          <Description>"0003"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>44</Offset>
+            <Offset>A90+8*3</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728173</ID>
+          <Description>"0004"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>44</Offset>
+            <Offset>A90+8*4</Offset>
+            <Offset>10+8</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>728174</ID>
+      <Description>"__SESSION__"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>728177</ID>
+          <Description>"uptime"</Description>
+          <LastState Value="688164" RealAddress="00B6B12C"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B12C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728178</ID>
+          <Description>"progress"</Description>
+          <LastState Value="FFFFFFFF" RealAddress="00B6B130"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B130+0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728179</ID>
+          <Description>"progress"</Description>
+          <LastState Value="FFFFFFFF" RealAddress="00B6B134"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B130+4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728180</ID>
+          <Description>"progress"</Description>
+          <LastState Value="FFFFFFFF" RealAddress="00B6B138"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B130+8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728181</ID>
+          <Description>"progress"</Description>
+          <LastState Value="FFFFFFFF" RealAddress="00B6B13C"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B130+C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728182</ID>
+          <Description>"mission"</Description>
+          <LastState Value="6" RealAddress="00B6B148"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B148</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728183</ID>
+          <Description>"room"</Description>
+          <LastState Value="121" RealAddress="00B6B150"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B150</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728184</ID>
+          <Description>"mode"</Description>
+          <LastState Value="1" RealAddress="00B6B154"/>
+          <VariableType>Byte</VariableType>
+          <Address>dmc3se.exe+76B154</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728185</ID>
+          <Description>"one hit kill"</Description>
+          <LastState Value="0" RealAddress="00B6B155"/>
+          <VariableType>Byte</VariableType>
+          <Address>dmc3se.exe+76B155</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728186</ID>
+          <Description>"character"</Description>
+          <LastState Value="0" RealAddress="00B6B159"/>
+          <VariableType>Byte</VariableType>
+          <Address>dmc3se.exe+76B159</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728187</ID>
+          <Description>"costume"</Description>
+          <LastState Value="0" RealAddress="00B6B214"/>
+          <VariableType>Byte</VariableType>
+          <Address>dmc3se.exe+76B214</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>728196</ID>
+      <Description>"__MISSION_DATA__"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>728190</ID>
+          <Description>"orbs"</Description>
+          <LastState Value="110256" RealAddress="00C38A8C"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>30+1C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728195</ID>
+          <Description>"frame count"</Description>
+          <LastState Value="96550" RealAddress="00C38AFC"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>30+8C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728194</ID>
+          <Description>"damage"</Description>
+          <LastState Value="0" RealAddress="00C38B00"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>30+90</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728193</ID>
+          <Description>"orbs collected"</Description>
+          <LastState Value="0" RealAddress="00C38B04"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>30+94</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728192</ID>
+          <Description>"items used"</Description>
+          <LastState Value="0" RealAddress="00C38B08"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>dmc3se.exe+76B860+C40+8</Address>
+          <Offsets>
+            <Offset>30+98</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>728220</ID>
+      <Description>"__SPEED__"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>728219</ID>
+          <Description>"main"</Description>
+          <LastState Value="1.200000048" RealAddress="0245D268"/>
+          <VariableType>Float</VariableType>
+          <Address>dmc3se.exe+205D268</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>728221</ID>
+      <Description>"Royal Guard 1"</Description>
+      <LastState Value="0" RealAddress="01C8E238"/>
+      <VariableType>Float</VariableType>
+      <Address>dmc3se.exe+188E238</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>728222</ID>
+      <Description>"Royal Guard 2"</Description>
+      <LastState Value="0" RealAddress="01C8E238"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>dmc3se.exe+188E238</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>728223</ID>
+      <Description>"Royal Guard 3"</Description>
+      <LastState Value="0" RealAddress="01C8E234"/>
+      <VariableType>Double</VariableType>
+      <Address>dmc3se.exe+188E234</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>728226</ID>
+      <Description>"devil trigger"</Description>
+      <LastState Value="8759.181641" RealAddress="01C8CE34"/>
+      <VariableType>Float</VariableType>
+      <Address>dmc3se.exe+188CE34</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>728233</ID>
+      <Description>"items"</Description>
+      <LastState Value="9.183549616E-41" RealAddress="00C38AA0"/>
+      <VariableType>Float</VariableType>
+      <Address>dmc3se.exe+838AA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>728236</ID>
+      <Description>"health"</Description>
+      <LastState Value="6000" RealAddress="01C8D04C"/>
+      <VariableType>Float</VariableType>
+      <Address>dmc3se.exe+188D04C</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>fullAccess("dmc3se.exe+188E234", 8)
+fullAccess("dmc3se.exe+188CE34", 8)
+fullAccess("dmc3se.exe+838AA0", 8)
+fullAccess("dmc3se.exe+188D04C", 8)
+
+-- lvl 2: 8.51083777008812E27
+-- lvl 3: 2.83488268996406E29
+
+function getEverything(sender)
+    everythingShouldRun=not everythingShouldRun
+    createThread(function()
+        while everythingShouldRun do
+            writeDouble("dmc3se.exe+188E234", 2.83488268996406E29) -- Royal Guard
+            writeFloat("dmc3se.exe+188CE34", 10000) -- Devil Trigger
+            writeFloat("dmc3se.exe+838AA0", 7.311887258E-21) -- Items
+            writeFloat("dmc3se.exe+188D04C", 20000) -- Health
+            sleep(100)
+        end
+    end)
+end
+
+function saveState(sender)
+    devilTrigger=readFloat("dmc3se.exe+188CE34")
+    royalGuard=readDouble("dmc3se.exe+188E234")
+    storedItems=readFloat("dmc3se.exe+838AA0")
+    danteHealth=readFloat("dmc3se.exe+188D04C")
+    return true
+end
+
+function autoSave(sender)
+    autoSaveShouldRun=not autoSaveShouldRun
+    createThread(function()
+        while autoSaveShouldRun do
+            roomId=readInteger("[[dmc3se.exe+76B860+C40+8]+10+8]+10+0")
+            isSpawned=readInteger("dmc3se.exe+0x20C39EC")
+            if oldRoomId ~= roomId and isSpawned == 1 then
+                devilTrigger=readFloat("dmc3se.exe+188CE34")
+                royalGuard=readDouble("dmc3se.exe+188E234")
+                storedItems=readFloat("dmc3se.exe+838AA0")
+                danteHealth=readFloat("dmc3se.exe+188D04C")
+                oldRoomId=roomId
+                sleep(100)
+            end
+        end
+    end)
+end
+
+
+function loadState(sender)
+    writeFloat("dmc3se.exe+188CE34", devilTrigger)
+    writeDouble("dmc3se.exe+188E234", royalGuard)
+    writeFloat("dmc3se.exe+838AA0", storedItems)
+    writeFloat("dmc3se.exe+188D04C", danteHealth)
+    return true
+end
+
+if loadHotkey ~= nil then loadHotkey.destroy(); loadHotkey=nil end
+if saveHotkey ~= nil then saveHotkey.destroy(); saveHotkey=nil end
+if autoSaveHotkey ~= nil then autoSaveHotkey.destroy(); autoSaveHotkey=nil end
+if haxHotkey ~= nil then haxHotkey.destroy(); haxHotkey=nil end
+
+loadHotkey=createHotkey("loadState", VK_F1)
+generichotkey_onHotkey(loadHotkey, loadState)
+
+saveHotkey=createHotkey("saveState", VK_F5)
+generichotkey_onHotkey(saveHotkey, saveState)
+
+autoSaveHotkey=createHotkey("autoSave", VK_F6)
+generichotkey_onHotkey(autoSaveHotkey, autoSave)
+autoSaveShouldRun=false
+isSpawned=nil
+roomId=nil
+
+haxHotkey=createHotkey("getEverything", VK_F7)
+generichotkey_onHotkey(haxHotkey, getEverything)
+everythingShouldRun=false
+
+loadHotkey.DelayBetweenActivate = 200
+saveHotkey.DelayBetweenActivate = 200
+autoSaveHotkey.DelayBetweenActivate = 200
+haxHotkey.DelayBetweenActivate = 200
+</LuaScript>
+</CheatTable>
