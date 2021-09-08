@@ -14,6 +14,6 @@ That's it
 - <kbd>F1</kbd> - Loads any saved state (and in style switcher, with hotkeys enabled, resets the room)
 - <kbd>F5</kbd> - Saves the state of your Royal Guard gauge, Devil Trigger, items, and health
 - <kbd>F6</kbd> - Automatically saves the state whenever you enter a new room, press <kbd>F6</kbd> again to disable
-- <kbd>F7</kbd> - Gives you infinite Royal Guard gauge, Devil Trigger, items, press <kbd>F7</kbd> again to disable
+- <kbd>F7</kbd> - Gives you infinite Royal Guard gauge, Devil Trigger, items, and health, press <kbd>F7</kbd> again to disable
 
 Happy hacking
