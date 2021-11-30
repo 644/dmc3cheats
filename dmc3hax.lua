@@ -24,6 +24,13 @@ function saveState(sender)
     royalGuard=readDouble("dmc3se.exe+188E234")
     storedItems=readFloat("dmc3se.exe+838AA0")
     danteHealth=readFloat("dmc3se.exe+188D04C")
+    orbCount=readInteger("[dmc3se.exe+76B860+C40+8]+30+1C")
+    orbsCollected=readInteger("[dmc3se.exe+76B860+C40+8]+30+94")
+    stylePts=readInteger("dmc3se.exe+188F854")
+    damageTaken=readInteger("[dmc3se.exe+76B860+C40+8]+30+90")
+    itemsUsed=readInteger("[dmc3se.exe+76B860+C40+8]+30+98")
+    frameCount=readInteger("[dmc3se.exe+76B860+C40+8]+30+8C")
+    rgExp=readFloat("dmc3se.exe+188E218")
     return true
 end
 
@@ -32,14 +39,21 @@ function autoSave(sender)
     createThread(function()
         while autoSaveShouldRun do
             roomId=readInteger("[[dmc3se.exe+76B860+C40+8]+10+8]+10+0")
-            isSpawned=readInteger("dmc3se.exe+0x20C39EC")
-            if oldRoomId ~= roomId and isSpawned == 1 then
+            tmpHealth=readFloat("dmc3se.exe+188D04C")
+            if oldRoomId ~= roomId and tmpHealth > 0 then
                 devilTrigger=readFloat("dmc3se.exe+188CE34")
                 royalGuard=readDouble("dmc3se.exe+188E234")
                 storedItems=readFloat("dmc3se.exe+838AA0")
                 danteHealth=readFloat("dmc3se.exe+188D04C")
+                orbCount=readInteger("[dmc3se.exe+76B860+C40+8]+30+1C")
+                orbsCollected=readInteger("[dmc3se.exe+76B860+C40+8]+30+94")
+                stylePts=readInteger("dmc3se.exe+188F854")
+                damageTaken=readInteger("[dmc3se.exe+76B860+C40+8]+30+90")
+                itemsUsed=readInteger("[dmc3se.exe+76B860+C40+8]+30+98")
+                frameCount=readInteger("[dmc3se.exe+76B860+C40+8]+30+8C")
+                rgExp=readFloat("dmc3se.exe+188E218")
                 oldRoomId=roomId
-                sleep(100)
+                sleep(250)
             end
         end
     end)
@@ -47,10 +61,18 @@ end
 
 
 function loadState(sender)
+    -- Ignus Fatuus: writeInteger("dmc3se.exe+838ABC", 65536)
     writeFloat("dmc3se.exe+188CE34", devilTrigger)
     writeDouble("dmc3se.exe+188E234", royalGuard)
     writeFloat("dmc3se.exe+838AA0", storedItems)
     writeFloat("dmc3se.exe+188D04C", danteHealth)
+    writeInteger("[dmc3se.exe+76B860+C40+8]+30+1C", orbCount)
+    writeInteger("[dmc3se.exe+76B860+C40+8]+30+8C", frameCount)
+    writeInteger("[dmc3se.exe+76B860+C40+8]+30+94", orbsCollected)
+    writeInteger("dmc3se.exe+188F854", stylePts)
+    writeInteger("[dmc3se.exe+76B860+C40+8]+30+90", damageTaken)
+    writeInteger("[dmc3se.exe+76B860+C40+8]+30+98", itemsUsed)
+    writeFloat("dmc3se.exe+188E218", rgExp)
     return true
 end
 
@@ -74,8 +96,3 @@ roomId=nil
 haxHotkey=createHotkey("getEverything", VK_F7)
 generichotkey_onHotkey(haxHotkey, getEverything)
 everythingShouldRun=false
-
-loadHotkey.DelayBetweenActivate = 200
-saveHotkey.DelayBetweenActivate = 200
-autoSaveHotkey.DelayBetweenActivate = 200
-haxHotkey.DelayBetweenActivate = 200
